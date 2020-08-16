@@ -1,27 +1,27 @@
-# PowerbiApp
+# What is powerbi-app?
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+This sample is an angular application that uses power bi embedding to embed a report.
 
-## Development server
+# Prerequisite
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+For the sample to run and render the report, there needs to be an Azure Function app "powerbifunctionapp" that you need to have running on the default 7071 port.
 
-## Code scaffolding
+# Blog 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This source code is accompanied by a blog that you can access here which has additional setup instructions that you need to complete before running this.
 
-## Build
+# How to run this sample
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Running instructions:
 
-## Running unit tests
+1. Replace the reportId and groupId variables in `report.component.ts` with your specific report and group ids.
+2. When running the application, use the following command to avoid CORS issues.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+      `ng serve --proxyConfig=proxy.conf.json`
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+# References
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+https://github.com/Microsoft/PowerBI-JavaScript/wiki
+https://github.com/microsoft/PowerBI-JavaScript
+https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers
