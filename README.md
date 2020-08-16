@@ -4,7 +4,7 @@ This sample is an angular application that uses power bi embedding to embed a re
 
 # Prerequisite
 
-For the sample to run and render the report, there needs to be an Azure Function app "powerbifunctionapp" that you need to have running on the default 7071 port.
+For the sample to run and render the report, there needs to be an Azure Function app [powerbi-app-functions](https://github.com/sdesa/powerbi-app-functions) that you need to have running on the default 7071 port.
 
 # Blog 
 
