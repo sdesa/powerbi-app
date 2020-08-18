@@ -22,6 +22,5 @@ Running instructions:
 
 # References
 
-https://github.com/Microsoft/PowerBI-JavaScript/wiki
-https://github.com/microsoft/PowerBI-JavaScript
-https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers
+1. https://github.com/microsoft/PowerBI-JavaScript
+2. https://docs.microsoft.com/en-us/power-bi/developer/embedded/embed-sample-for-customers
