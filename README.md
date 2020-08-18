@@ -10,6 +10,8 @@ For the sample to run and render the report, there needs to be an Azure Function
 
 This source code is accompanied by a blog that you can access here which has additional setup instructions that you need to complete before running this.
 
+https://medium.com/@sivadevd01/power-bi-embedding-using-angular-and-azure-functions-in-java-4b20de3cca80
+
 # How to run this sample
 
 Running instructions:
